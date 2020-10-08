@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/oveandersen/.nvm/versions/node/v12.16.1/bin/node /Users/oveandersen/.nvm/versions/node/v12.16.1/lib/node_modules/@sanity/cli/vendor/yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  /Users/oveandersen/Projects/sanity/sanity-plugin-tabs-demo/node_modules/.bin:/Users/oveandersen/Projects/sanity/node_modules/.bin:/Users/oveandersen/Projects/node_modules/.bin:/Users/oveandersen/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/oveandersen/.nvm/versions/node/v12.16.1/bin:/Users/oveandersen/.nvm/versions/node/v12.16.1/lib/node_modules/vendor:/Users/oveandersen/.nvm/versions/node/v12.16.1/bin:/Users/oveandersen/.pyenv/shims:~/.pyenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/opt/rabbitmq/sbin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/oveandersen/Projects/sanity/sanity-plugin-tabs-demo/node_modules/sanity-plugin-tabs/node_modules/@sanity/form-builder/.eslintrc'
+
+npm manifest: 
+  {
+    "name": "sanityplugintabs",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "Miles Create <webteam@miles.no>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "dev": "sanity start --preserve-symlinks",
+      "start": "sanity start",
+      "test": "sanity check"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.0.1",
+      "@sanity/components": "^2.0.1",
+      "@sanity/core": "^2.0.1",
+      "@sanity/default-layout": "^2.0.1",
+      "@sanity/default-login": "^2.0.1",
+      "@sanity/desk-tool": "^2.0.1",
+      "@sanity/vision": "^2.0.1",
+      "prop-types": "^15.6",
+      "react": "^16.2",
+      "react-dom": "^16.2",
+      "sanity-plugin-tabs": "^1.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
